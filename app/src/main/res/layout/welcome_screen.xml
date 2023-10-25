@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_background">
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="722dp"
+        android:layout_marginStart="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_marginEnd="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="318dp"
+            android:layout_height="358dp"
+            android:layout_gravity="center"
+            android:src="@drawable/todo_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/welcomeImage"
+            />
+
+        <TextView
+            android:id="@+id/welcome_section1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo"
+            android:text="@string/welcome_section1"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/font_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcome_section2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_small"
+            android:fontFamily="@font/baloo"
+            android:text="@string/welcome_section2"
+            android:textColor="@color/custom_text_color"
+            android:textSize="@dimen/font_xlarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/welcome_section3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:fontFamily="@font/baloo"
+            android:justificationMode="inter_word"
+            android:text="@string/welcome_section3"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/font_medium"
+
+            android:textStyle="normal" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/welcome_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/welcome_button_bg"
+            android:text="@string/welcome_button_text"
+            app:elevation="200dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

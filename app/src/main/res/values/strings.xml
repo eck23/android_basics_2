@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sample Application</string>
+    <string name="welcome_section1">Welcome to</string>
+    <string name="welcome_section2">OUR REMINDER</string>
+    <string name="welcome_section3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim commodo consequat.
+    </string>
+
+    <string name="welcome_button_text" >Get Start</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_text_signup">Get things done\nwith TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_text_1_signin">Welcome back\n to</string>
+    <string name="title_text_2_signin">OUR REMINDER</string>
+    <string name="email_hint">\t\tEnter Email Address</string>
+    <string name="password_hint">\t\tEnter Password</string>
+    <string name="name_hint">\t\tEnter Full Name</string>
+    <string name="set_password_hint">\t\tSet a Password</string>
+    <string name="confirm_password_hint">\t\tConfirm Password</string>
+
+</resources>

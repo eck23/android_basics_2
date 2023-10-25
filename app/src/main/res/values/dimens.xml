@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Font Sizes-->
+    <dimen name="font_xsmall">4sp</dimen>
+    <dimen name="font_small">8sp</dimen>
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="font_xlarge">32sp</dimen>
+
+<!--    margins-->
+    <dimen name="margin_default">32dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">64dp</dimen>
+    <dimen name="margin_xlarge">128dp</dimen>
+    <dimen name="margin_xxlarge">256dp</dimen>
+    <dimen name="margin_custom_top">224dp</dimen>
+
+</resources>
