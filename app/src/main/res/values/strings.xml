@@ -6,16 +6,25 @@
         dolore magna aliqua. Ut enim commodo consequat.
     </string>
 
-    <string name="welcome_button_text" >Get Start</string>
+    <string name="welcome_button_text">Get Start</string>
     <string name="sign_up">Sign Up</string>
     <string name="title_text_signup">Get things done\nwith TODO</string>
     <string name="sign_in">Sign In</string>
     <string name="title_text_1_signin">Welcome back\n to</string>
     <string name="title_text_2_signin">OUR REMINDER</string>
-    <string name="email_hint">\t\tEnter Email Address</string>
-    <string name="password_hint">\t\tEnter Password</string>
-    <string name="name_hint">\t\tEnter Full Name</string>
-    <string name="set_password_hint">\t\tSet a Password</string>
-    <string name="confirm_password_hint">\t\tConfirm Password</string>
+    <string name="email_hint">Enter Email Address</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="name_hint">Enter Full Name</string>
+    <string name="set_password_hint">Set a Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="user_full_name">Monica Gamage</string>
+    <string name="user_id">\@monicagammage</string>
+    <string name="log_out">Log Out</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="tasks_list">Tasks List</string>
 
 </resources>

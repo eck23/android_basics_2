@@ -7,6 +7,7 @@ import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -14,38 +15,19 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.welcome_screen)
-
-        val topAnimation= AnimationUtils.loadAnimation(this, R.anim.welcome_animation_top)
-        val bottomAnimation= AnimationUtils.loadAnimation(this, R.anim.welcome_animation_bottom)
-        topAnimation.duration=1000
-        bottomAnimation.duration=1000
+        setContentView(R.layout.activity_main)
 
 
-        val welcomeImage = findViewById<ImageView>(R.id.welcomeImage)
-        val welcomeTextSection1 = findViewById<TextView>(R.id.welcome_section1)
-        val welcomeTextSection2 = findViewById<TextView>(R.id.welcome_section2)
-        val welcomeTextSection3 = findViewById<TextView>(R.id.welcome_section3)
-        val welcomeButton = findViewById<Button>(R.id.welcome_button)
+        loadFragment(WelcomeFragment())
 
 
-        welcomeImage.animation=topAnimation
-        welcomeTextSection1.animation=bottomAnimation
-        welcomeTextSection2.animation=bottomAnimation
-        welcomeTextSection3.animation=bottomAnimation
-        welcomeButton.animation=bottomAnimation
+    }
 
+    fun loadFragment(fragment: Fragment){
 
-        welcomeButton.setOnClickListener(){
-
-            val  intent = Intent(this, SignUpActivity::class.java)
-            startActivity(intent);
-            finish()
-        }
-
-
-
-
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.container,fragment)
+        transaction.commit()
     }
 
 }
